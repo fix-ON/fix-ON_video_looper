@@ -1,5 +1,6 @@
 # Copyright 2015 Adafruit Industries.
 # Author: Tony DiCola
+# Translater: Victor Clausson - Retroverkstaden.se
 # License: GNU GPLv2, see LICENSE.txt
 
 import configparser
