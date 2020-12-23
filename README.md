@@ -52,15 +52,17 @@ When the Rpi is off, load your USB-stick with your favorite videos and enjoy! :)
 
 To change some settings of the Video Looper, either pull the SD-card out and put it into your computer or use SSH.
 
-* Computer: edit `video_looper.ini` which is located in the root of the SD-card.
-* SSH: type `sudo nano /boot/video_looper.ini` to make changes. Press `CTRL+X` when your done followed by `Y` then `ENTER`.
+Computer: 
+Edit `video_looper.ini` which is located in the root of the SD-card.
+SSH:
+Type `sudo nano /boot/video_looper.ini` to make changes. Press `CTRL+X` when your done followed by `Y` then `ENTER`.
 
 More about the Video Looper settings can be found here: https://learn.adafruit.com/raspberry-pi-video-looper/usage
        
        
 # Troubleshooting
 
-* When using the Raspberry Pi ZERO, you might want to use the Analog audio only. Using both HDMI and Analog audio out will cause stuttering because the Rpi ZERO is not powerful enough. You can change this in the `video_looper.ini` which is explained above:
+When using the Raspberry Pi ZERO, you might want to use the Analog audio only. Using both HDMI and Analog audio out will cause stuttering because the Rpi ZERO is not powerful enough. You can change this in the `video_looper.ini` which is explained above:
 
        #sound = both
        #sound = hdmi
