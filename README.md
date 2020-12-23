@@ -23,7 +23,8 @@ Overclock the Rpi with (this can't be done with Rpi ZERO's):
     
        Overclock > Press “OK” > Medium
        
-Press Finish when your done:
+Press Finish when your done.
+
 
 Now it's time to get into the good stuff. 
 
