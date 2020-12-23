@@ -18,15 +18,15 @@ Original project can be found here: https://github.com/adafruit/pi_video_looper
        password: raspberry 
 
 * Overclock the Rpi with:
-sudo raspi-config
-För automatisk inloggning:
-Boot Options > Desktop / CLI > Console Autologin
-Överklocka en smula:
-Overclock > Tryck “OK” > Medium
-Avsluta och starta om.
 
+       sudo raspi-config
+       
+       Overclock > Press “OK” > Medium
+       
+* Press Finish when your done:
 
-När konsolen scrollat klart och loggat in automatiskt, skriv in dessa rader:
+Now it's time to get into the good stuff. 
+Type/Paste in one line at the time with: 
 sudo apt-get update
 sudo apt-get install -y git
 sudo git clone https://github.com/fix-ON/Rpi_video_looper.git
