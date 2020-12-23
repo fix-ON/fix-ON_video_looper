@@ -28,7 +28,7 @@ Press Finish when your done.
 
 Now it's time to get into the good stuff. 
 
-Type/Paste in one line at the time with: 
+Type/Paste in one line at the time: 
 
        sudo apt-get update
        
