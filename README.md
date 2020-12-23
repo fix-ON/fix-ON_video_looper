@@ -6,10 +6,15 @@ Original project can be found here: https://github.com/adafruit/pi_video_looper
 
 #Instruction
 Flasha ett SD-kort med senaste Raspbian Lite versionen: https://www.raspberrypi.org/downloads/raspbian/
+
 Koppla in nätverkssladd och strömsätt Raspberry Pi’n.
+
 När Raspberry Pi’n  har bootat upp och stannat. Logga in med uppgifterna:
+
 user: pi 
+
 pass: raspberry
+
 Konfiguera Raspberry Pi’n med:
 sudo raspi-config
 För automatisk inloggning:
