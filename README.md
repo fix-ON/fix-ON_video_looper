@@ -54,7 +54,6 @@ To change some settings of the Video Looper, either pull the SD-card out and put
 
 Computer: 
 Edit `video_looper.ini` which is located in the root of the SD-card.
-
 SSH:
 Type `sudo nano /boot/video_looper.ini` to make changes. Press `CTRL+X` when your done followed by `Y` then `ENTER`.
 
