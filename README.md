@@ -30,10 +30,15 @@ Now it's time to get into the good stuff.
 Type/Paste in one line at the time with: 
 
        sudo apt-get update
+       
        sudo apt-get install -y git
+       
        sudo git clone https://github.com/fix-ON/Rpi_video_looper.git
+       
        cd Rpi_video_looper
+       
        sudo chmod +x install.sh
+       
        sudo ./install.sh
 Done!
 
