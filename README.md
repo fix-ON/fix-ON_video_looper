@@ -1,14 +1,15 @@
 
  
  
-# Fixon Video Looper
-This is a translated version (Swedish) of the original Adafruits pi video looper. Only the on-screen texts in the scripts are translated, everything else is the original creators code. Credits goes to them!
+# Rpi Video Looper
+Make your Raspberry Pi loop a video file endlessly and seamlessly, without showing any logo or breaks.
+A simple, cheap and reliable media player/digital signage solution that just works. No configuration needed. This solution is using the pi_video_looper script, all installed and configured. If you don't have the time, or the desire, or the means to learn to code it yourself, this is for you.
 
 Original project can be found here: https://github.com/adafruit/pi_video_looper
 
 # Instructions
 
-Download and flash your SD-card with the latest version of Raspbian Lite: http://downloads.raspberrypi.org/raspbian_lite/images/
+Download and flash your SD-card with the latest version of Raspbian **Buster** Lite (IMPORTANT! to NOT use Bullseye, it's missing the omxplayer that this script uses.): http://downloads.raspberrypi.org/raspbian_lite/images/
 
 Connect your Rpi to your network and power it on. If your using a Rpi Zero, be sure to enable wifi and ssh. More info here: https://desertbot.io/blog/headless-pi-zero-w-wifi-setup-windows 
 
@@ -16,15 +17,6 @@ When the Rpi has booted up, log in using:
 
        user: pi
        password: raspberry 
-
-Overclock the Rpi with (this can't be done with Rpi ZERO's):
-
-       sudo raspi-config
-    
-       Overclock > Press “OK” > Medium
-       
-Press Finish when your done.
-
 
 Now it's time to get into the good stuff. 
 
@@ -34,9 +26,9 @@ Type/Paste in one line at the time:
        
        sudo apt-get install -y git
        
-       sudo git clone https://github.com/fix-ON/Rpi_video_looper.git
+       sudo git clone https://github.com/adafruit/pi_video_looper
        
-       cd Rpi_video_looper
+       cd pi_video_looper
        
        sudo chmod +x install.sh
        
