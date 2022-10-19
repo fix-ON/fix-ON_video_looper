@@ -9,7 +9,7 @@ Original project can be found here: https://github.com/adafruit/pi_video_looper
 
 # Instructions
 
-Download and flash your SD-card with the latest version of Raspbian **Buster** Lite (IMPORTANT! to NOT use Bullseye, it's missing the omxplayer that this script uses.): http://downloads.raspberrypi.org/raspbian_lite/images/
+Currently only the Legacy version of Raspberry Pi OS Lite is supported. You can download it from here: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy
 
 Connect your Rpi to your network and power it on. If your using a Rpi Zero, be sure to enable wifi and ssh. More info here: https://desertbot.io/blog/headless-pi-zero-w-wifi-setup-windows 
 
