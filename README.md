@@ -9,7 +9,8 @@ Original project can be found here: https://github.com/adafruit/pi_video_looper
 
 # Instructions
 
-Currently only the Legacy version of Raspberry Pi OS Lite is supported. You can download it from here: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy
+Currently only the Legacy version of Raspberry Pi OS Lite is supported. You can download it from here: <br>
+[raspios_oldstable_lite_armhf-2022-01-28/2022-01-28-raspios-buster-armhf-lite.zip](https://downloads.raspberrypi.com/raspios_oldstable_lite_armhf/images/raspios_oldstable_lite_armhf-2022-01-28/2022-01-28-raspios-buster-armhf-lite.zip)
 
 Connect your Rpi to your network and power it on. If your using a Rpi Zero, be sure to enable wifi and ssh. More info here: https://desertbot.io/blog/headless-pi-zero-w-wifi-setup-windows 
 
